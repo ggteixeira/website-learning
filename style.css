@@ -1,0 +1,107 @@
+/* HEADER */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* background-color: #24252A */
+}
+
+body {
+    background: whitesmoke;
+    /* padding: 3px; */
+}
+
+/* Navbar */
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 3%;
+    background-color: whitesmoke;
+    border-bottom: #e7e7e7 1px outset;
+}
+
+/* Logo à esqureda */
+.logo {
+    cursor: pointer;
+    height: 50px;
+    margin-right: auto;
+    /* color: white; */
+    padding: 0px 10px 0px;
+}
+
+/* Menu direito */
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-family: "Merriweather", serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #e7e7e7;
+    text-decoration: none;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+    color: black;
+}
+
+.nav__links li a:hover {
+    color: #0088a9;
+}
+
+button {
+    padding: 9px 15px;
+    margin-left: 15px;
+    background-color: rgba(50, 50, 50, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+
+/* NAME & BIO */
+.bio {
+    margin: 3%;
+}
+
+.quick-bio {
+    margin: 5px;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    font-family: 'Merriweather', serif;
+}
+
+.quick-bio .name {
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.quick-bio .role {
+    border: red solid;
+    font-weight: normal;
+    font-size: 18px;
+
+    padding: 10px 0 10px 0;
+}
+
+/* SOCIAL MEDIA */
+
