@@ -35,10 +35,8 @@ header {
 }
 
 /* Menu direito */
-li, a, button {
-    font-family: "Montserrat", sans-serif;
+li a {
     font-family: "Merriweather", serif;
-    font-weight: 500;
     font-size: 15px;
     color: #e7e7e7;
     text-decoration: none;
@@ -62,7 +60,10 @@ li, a, button {
     color: #0088a9;
 }
 
-button {
+.nav-button {
+    font-family: "Merriweather", serif;
+    font-size: 15px;
+    color: #e7e7e7;
     padding: 9px 15px;
     margin-left: 15px;
     background-color: rgba(50, 50, 50, 1);
@@ -105,3 +106,6 @@ button:hover {
 
 /* SOCIAL MEDIA */
 
+.media-buttons {
+    border: blue solid;
+}
