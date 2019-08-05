@@ -11,7 +11,7 @@
 }
 
 body {
-    background: whitesmoke;
+    background: white;
     /* padding: 3px; */
 }
 
@@ -21,7 +21,7 @@ header {
     justify-content: flex-end;
     align-items: center;
     padding: 0 3%;
-    background-color: whitesmoke;
+    background-color: white;
     border-bottom: #e7e7e7 1px outset;
 }
 
@@ -53,7 +53,7 @@ li a {
 
 .nav__links li a {
     transition: all 0.3s ease 0s;
-    color: black;
+    color: #333333;
 }
 
 .nav__links li a:hover {
@@ -86,12 +86,12 @@ button:hover {
 .quick-bio {
     margin: 5px;
     text-align: center;
-    padding: 20px 0 20px 0;
+    padding: 10px 0 20px 0;
     font-family: 'Merriweather', serif;
 }
 
 .quick-bio .name {
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     font-weight: 700;
     font-size: 25px;
 }
@@ -101,6 +101,10 @@ button:hover {
     font-size: 18px;
 
     padding: 10px 0 10px 0;
+}
+
+.quick-bio .name, .role {
+    color: #333333;
 }
 
 /* SOCIAL MEDIA */
