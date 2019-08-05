@@ -97,7 +97,6 @@ button:hover {
 }
 
 .quick-bio .role {
-    border: red solid;
     font-weight: normal;
     font-size: 18px;
 
@@ -106,6 +105,24 @@ button:hover {
 
 /* SOCIAL MEDIA */
 
-.media-buttons {
-    border: blue solid;
+.media {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+    margin: 0 auto;
+    justify-content: space-around;
 }
+
+article a .media-buttons {
+    padding: 5px;
+    border: none;
+    font: inherit;
+    color: rgba(50, 50, 50, 1);
+    background-color: transparent;
+}
+
+article a .media-buttons i {
+    padding: 5px;
+    vertical-align: auto;
+}
+
