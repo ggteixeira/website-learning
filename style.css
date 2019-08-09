@@ -117,13 +117,21 @@ button:hover {
     justify-content: space-around;
 }
 
+
 article a .media-buttons {
     padding: 5px;
     border: none;
     font: inherit;
     color: rgba(50, 50, 50, 1);
     background-color: transparent;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
 }
+
+article a .media-buttons:hover {
+    color: #0088a9;
+}
+
 
 article a .media-buttons i {
     padding: 10px;
