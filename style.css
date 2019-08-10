@@ -112,9 +112,10 @@ button:hover {
 .media {
     display: flex;
     flex-wrap: wrap;
-    max-width: 500px;
-    margin: 0 auto;
-    justify-content: space-around;
+    max-width: 50%;
+    margin: 1px auto;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
 }
 
 
@@ -126,6 +127,7 @@ article a .media-buttons {
     background-color: transparent;
     transition: all 0.3s ease 0s;
     cursor: pointer;
+
 }
 
 article a .media-buttons:hover {
@@ -134,7 +136,33 @@ article a .media-buttons:hover {
 
 
 article a .media-buttons i {
-    padding: 10px;
+    padding: 5px;
     vertical-align: auto;
 }
 
+/* PORTFOLIO (API) */
+.portfolio {
+    border: black dotted;
+    margin: 0 10% 0 10%;
+    padding: 1%;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.portfolio > .screenshot {
+    border: blue solid;
+    padding: inherit;
+    padding: 5% 10% 5% 10%;
+
+}
+
+.repo-informations {
+    border: orange solid;
+    padding: 5px 1% 5px 1%;
+}
+
+.repo-informations ul li {
+    list-style-type: none;
+    /* border: green solid; */
+}
