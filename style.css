@@ -148,11 +148,30 @@ article a .media-buttons i {
     margin: 10%;
     padding: 1%;
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
     
 }
 
-.portfolio > div.screenshot {
+.portfolio-box {
+    flex-basis: 45%;
+}
+
+.screenshot {
+    border: green solid;
+}
+
+.screenshot img {
+    max-width: 100%;
+}
+
+.repo-informations {
+    border: orange solid;
+}
+
+
+
+/* .portfolio > div.screenshot {
     border: red solid 4px;  
     width: 500px;
     height: 300px;
@@ -180,7 +199,6 @@ article a .media-buttons i {
 }
 
 .repo-button {
-    /* border: green solid; */
     padding: 9px 15px;
     background-color: beige;
     border-radius: 10px;
@@ -191,10 +209,9 @@ article a .media-buttons i {
 }
 
 .repo-button  i {
-    /* border: rebeccapurple solid; */
     padding: auto;
 }
 
 .repo-button i.fa {
     border: green solid;
-}
+} */
